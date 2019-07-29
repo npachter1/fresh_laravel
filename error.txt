@@ -1,0 +1,17 @@
+
+In Connection.php line 647:
+                                                                                                                
+  SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known (SQL: select   
+  * from information_schema.tables where table_schema = neildb and table_name = migrations)                     
+                                                                                                                
+
+In Connector.php line 68:
+                                                                                                  
+  SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known  
+                                                                                                  
+
+In Connector.php line 68:
+                                                                                               
+  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known  
+                                                                                               
+
